@@ -1,0 +1,100 @@
+brand ,Name,Category,price,description,in_store 
+Microsoft,Xbox Series X,Console,146.68,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",TRUE
+Nintendo,Xbox Series X,Console,854.38,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",TRUE
+Asus,Odyssey G5,Monitors,856.91,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+Apple,iPad Pro 12.9,Tablets,1451.73,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",TRUE
+HP,MacBook Pro 16,Laptops,1620.87,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",TRUE
+OnePlus,Galaxy S23 Ultra,Phone,1325.47,"256 GB: Dynamic AMOLED display, fast 5G connectivity, Snapdragon 8 Gen 2, enhanced battery performance",TRUE
+Lenovo,XPS 8940,Desktop PC,444.73,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",TRUE
+LG,UltraGear 27GN950,Monitors,383.56,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",FALSE
+Acer,Omen 30L,Desktop PC,1027.08,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",TRUE
+Acer,Omen 30L,Desktop PC,1532.93,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",FALSE
+Apple,iPhone 15 Pro Max,Phone,1706.1,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+Sony,PlayStation 5,Console,114.83,"Sony's latest console with SSD storage, 4K gaming, and an immersive controller experience",FALSE
+Google,iPhone 15 Pro Max,Phone,720.71,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+Microsoft,Xbox Series X,Console,135.67,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",FALSE
+Asus,XPS 8940,Desktop PC,1962.65,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",TRUE
+Asus,Odyssey G5,Monitors,1685.21,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+Apple,Galaxy Tab S8,Tablets,1368.32,"11-inch screen, Snapdragon 8 Gen 1, 256GB storage, S Pen included for productivity",TRUE
+Apple,iPhone 15 Pro Max,Phone,1694.24,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+Amazon,iPad Pro 12.9,Tablets,1881.78,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",TRUE
+Apple,MacBook Pro 16,Laptops,1942.07,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",FALSE
+Lenovo,XPS 8940,Desktop PC,1907.75,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",FALSE
+Asus,ThinkPad X1 Carbon,Laptops,1039.28,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",FALSE
+Microsoft,PlayStation 5,Console,225.06,"Sony's latest console with SSD storage, 4K gaming, and an immersive controller experience",FALSE
+Amazon,iPad Pro 12.9,Tablets,1333.01,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",FALSE
+Lenovo,ThinkPad X1 Carbon,Laptops,1249.45,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",TRUE
+Xiaomi,iPhone 15 Pro Max,Phone,1024.27,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+Dell,Omen 30L,Desktop PC,978.63,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",TRUE
+LG,Odyssey G5,Monitors,1736.78,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",FALSE
+Microsoft,Xbox Series X,Console,114.45,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",TRUE
+Asus,Odyssey G5,Monitors,1596.38,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+Samsung,Pixel 8,Phone,1795.1,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",FALSE
+OnePlus,Pixel 8,Phone,341.46,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",TRUE
+Samsung,iPhone 15 Pro Max,Phone,1858.37,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+BenQ,UltraGear 27GN950,Monitors,1069.83,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+Microsoft,Xbox Series X,Console,1704.97,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",FALSE
+OnePlus,iPhone 15 Pro Max,Phone,700.36,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+HP,ThinkPad X1 Carbon,Laptops,964.24,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",TRUE
+Lenovo,ThinkPad X1 Carbon,Laptops,885.03,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",TRUE
+Samsung,iPad Pro 12.9,Tablets,1676.5,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",FALSE
+Apple,iPhone 15 Pro Max,Phone,1970.19,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+LG,Odyssey G5,Monitors,894.91,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+HP,XPS 8940,Desktop PC,941.47,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",TRUE
+Samsung,UltraGear 27GN950,Monitors,1101.3,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",FALSE
+HP,Omen 30L,Desktop PC,238.97,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",FALSE
+Apple,ThinkPad X1 Carbon,Laptops,1173.86,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",TRUE
+HP,ThinkPad X1 Carbon,Laptops,895.29,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",FALSE
+Microsoft,PlayStation 5,Console,1882.44,"Sony's latest console with SSD storage, 4K gaming, and an immersive controller experience",FALSE
+Apple,Pixel 8,Phone,1332.53,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",TRUE
+Dell,Odyssey G5,Monitors,457.12,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",FALSE
+Lenovo,iPad Pro 12.9,Tablets,406.9,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",TRUE
+Apple,MacBook Pro 16,Laptops,325.84,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",FALSE
+Lenovo,MacBook Pro 16,Laptops,1396.35,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",TRUE
+HP,MacBook Pro 16,Laptops,894.98,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",FALSE
+OnePlus,iPhone 15 Pro Max,Phone,553.49,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",TRUE
+Sony,Xbox Series X,Console,1406.34,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",FALSE
+Google,iPhone 15 Pro Max,Phone,387.62,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+BenQ,UltraGear 27GN950,Monitors,804.2,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",FALSE
+Asus,UltraGear 27GN950,Monitors,1330.41,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+OnePlus,Galaxy S23 Ultra,Phone,463.32,"256 GB: Dynamic AMOLED display, fast 5G connectivity, Snapdragon 8 Gen 2, enhanced battery performance",TRUE
+OnePlus,Pixel 8,Phone,1990.68,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",TRUE
+Samsung,iPad Pro 12.9,Tablets,1249.92,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",FALSE
+Samsung,UltraGear 27GN950,Monitors,582.4,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+Sony,PlayStation 5,Console,1270.96,"Sony's latest console with SSD storage, 4K gaming, and an immersive controller experience",TRUE
+Asus,Odyssey G5,Monitors,585.96,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+Sony,Xbox Series X,Console,492.85,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",FALSE
+Dell,MacBook Pro 16,Laptops,1910.3,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",FALSE
+Lenovo,XPS 8940,Desktop PC,145.92,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",TRUE
+Dell,XPS 8940,Desktop PC,972.82,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",FALSE
+Samsung,iPhone 15 Pro Max,Phone,287.15,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",TRUE
+Google,Pixel 8,Phone,706.33,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",FALSE
+Dell,Omen 30L,Desktop PC,259.32,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",TRUE
+Lenovo,Galaxy Tab S8,Tablets,248.23,"11-inch screen, Snapdragon 8 Gen 1, 256GB storage, S Pen included for productivity",TRUE
+BenQ,Odyssey G5,Monitors,1382.12,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",TRUE
+Lenovo,XPS 8940,Desktop PC,1686.67,"Powerful desktop with Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX graphics for all your computing needs",FALSE
+Apple,iPad Pro 12.9,Tablets,1684.92,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",TRUE
+Amazon,iPad Pro 12.9,Tablets,984.83,"M2 chip, 12.9-inch Liquid Retina XDR, 128GB storage, WiFi, perfect for creatives",TRUE
+LG,UltraGear 27GN950,Monitors,1646.53,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+Google,Pixel 8,Phone,971.8,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",TRUE
+Samsung,Pixel 8,Phone,505.01,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",FALSE
+Lenovo,Galaxy Tab S8,Tablets,374.46,"11-inch screen, Snapdragon 8 Gen 1, 256GB storage, S Pen included for productivity",FALSE
+Apple,MacBook Pro 16,Laptops,1810.59,"M2 Max chip, 16-inch Retina Display, 16GB RAM, 1TB SSD, ideal for professionals on the go",TRUE
+Asus,UltraGear 27GN950,Monitors,1912.15,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+Lenovo,ThinkPad X1 Carbon,Laptops,232.83,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",TRUE
+OnePlus,Pixel 8,Phone,879.81,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",TRUE
+Asus,ThinkPad X1 Carbon,Laptops,786.07,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",FALSE
+Dell,UltraGear 27GN950,Monitors,242.09,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",FALSE
+Samsung,Pixel 8,Phone,520.34,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",FALSE
+Microsoft,Galaxy Tab S8,Tablets,1644.67,"11-inch screen, Snapdragon 8 Gen 1, 256GB storage, S Pen included for productivity",TRUE
+Apple,iPhone 15 Pro Max,Phone,1229.23,"128 GB: 5G Mobile phone with Apple Intelligence, Camera Control, A18 Chip, and a Big Boost in Battery Life",FALSE
+Lenovo,Omen 30L,Desktop PC,1043.83,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",FALSE
+Dell,Omen 30L,Desktop PC,1775.22,"Gaming PC with Ryzen 7, 16GB RAM, RTX 3060, and RGB lighting for enhanced gaming experience",FALSE
+Samsung,Odyssey G5,Monitors,1890.43,"34-inch curved gaming monitor, 165Hz, 1ms response time, WQHD resolution for immersive visuals",FALSE
+Google,Galaxy S23 Ultra,Phone,1719.07,"256 GB: Dynamic AMOLED display, fast 5G connectivity, Snapdragon 8 Gen 2, enhanced battery performance",TRUE
+Sony,PlayStation 5,Console,1511.37,"Sony's latest console with SSD storage, 4K gaming, and an immersive controller experience",FALSE
+HP,ThinkPad X1 Carbon,Laptops,425.23,"Intel i7, 16GB RAM, 512GB SSD, lightweight build, perfect for business professionals",FALSE
+Microsoft,Xbox Series X,Console,1568.11,"Microsoft console with fast load times, 12 teraflops processing power, 4K gaming at up to 120 FPS",FALSE
+BenQ,UltraGear 27GN950,Monitors,337.4,"27-inch UHD gaming monitor with 144Hz refresh rate, 1ms response time, G-Sync compatible",TRUE
+Xiaomi,Galaxy S23 Ultra,Phone,758.51,"256 GB: Dynamic AMOLED display, fast 5G connectivity, Snapdragon 8 Gen 2, enhanced battery performance",FALSE
+OnePlus,Pixel 8,Phone,1605.91,"128 GB: Smart AI-powered 5G phone, excellent low-light photography, latest Google Tensor G3 chip",FALSE

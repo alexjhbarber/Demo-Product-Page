@@ -2,21 +2,33 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Product;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $csvFile = fopen(base_path("database/data/full_products_data.csv"), "r");
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+
+        $firstline = true;
+
+        while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
+            if (!$firstline) {
+                Product::create([
+                    'brand' => $data[0],
+                    'name' => $data[1],
+                    'category' => $data[2],
+                    'price' => $data[3],
+                    'description' => $data[4],
+                    'in_store' => $data[5] === 'TRUE',
+                ]); 
+
+            }
+            $firstline = false;
+        }
+        fclose($csvFile);
     }
 }
+

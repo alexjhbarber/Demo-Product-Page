@@ -21,6 +21,16 @@ class ProductsController extends Controller
             $query->whereIn('brand', $brands);
         }
 
+        if ($request->has('min_price') && !empty($request->input('min_price'))) {
+            $minPrice = (float)$request->input('min_price');
+            $query->where('price', '>=', $minPrice);
+        }
+
+        if ($request->has('max_price') && !empty($request->input('max_price'))) {
+            $maxPrice = (float)$request->input('max_price');
+            $query->where('price', '<=', $maxPrice);
+        }
+
         $products = $query->paginate(9);
 
         return response()->json($products);

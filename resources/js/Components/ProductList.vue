@@ -3,8 +3,8 @@
         <product-filter
             :categories="categories"
             :brands="brands"
-            @update-category="updateCategory"
-            @update-brand="updateBrand"
+            @update-filters="updateFilterParams"
+            @update-filters-price="updatePriceRange"
             multiple
         />
         
@@ -45,11 +45,14 @@ export default {
     },
     methods: {
         async fetchProducts() {
+            const params = new URLSearchParams(window.location.search);
             try {
                 const response = await axios.get('/api/products', {
                     params: {
-                        category: this.selectedCategories.length ? this.selectedCategories.join(',') : '',
-                        brand: this.selectedBrands.length ? this.selectedBrands.join(',') : '',
+                        category: params.get('category') || '',
+                        brand: params.get('brand') || '',
+                        min_price: params.get('minPrice') || '',
+                        max_price: params.get('maxPrice') || '',
                     },
                 });
                 this.products = response.data.data;
@@ -57,12 +60,17 @@ export default {
                 console.error(error);
             }
         },
-        updateCategory(newCategories) {
-            this.selectedCategories = newCategories;
+        updateFilterParams(key, value) {
+            const params = new URLSearchParams(window.location.search);
+            params.set(key, value);
+            history.replaceState({}, '', `${window.location.pathname}?${params}`);
             this.fetchProducts();
         },
-        updateBrand(newBrands) {
-            this.selectedBrands = newBrands;
+        updatePriceRange(min, max) {
+            const params = new URLSearchParams(window.location.search);
+            params.set('minPrice', min);
+            params.set('maxPrice', max);
+            history.replaceState({}, '', `${window.location.pathname}?${params}`);
             this.fetchProducts();
         },
     },
@@ -71,4 +79,5 @@ export default {
     },
 };
 </script>
+
 

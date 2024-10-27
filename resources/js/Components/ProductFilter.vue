@@ -20,6 +20,22 @@
             />
             <label>{{ brand }}</label>
         </div>
+        <div>Price Range</div>
+        <div>
+            <input
+                type="number"
+                min="0"
+                v-model="selectedMinPrice"
+                @change="onPriceChange"
+            />
+            -
+            <input
+                type="number"
+                min="0"
+                v-model="selectedMaxPrice"
+                @change="onPriceChange"
+            />
+        </div>
     </div>
 </template>
 
@@ -34,21 +50,38 @@ export default {
             type: Array,
             default: () => [],
         },
+        minPrice: {
+            type: Number,
+            default: 300,
+        },
+        maxPrice: {
+            type: Number,
+            default: 3500,
+        },
     },
     data() {
         return {
             selectedCategories: [],
             selectedBrands: [],
+            selectedMinPrice: this.minPrice,
+            selectedMaxPrice: this.maxPrice,
         };
     },
     methods: {
         onCategoryChange() {
-            this.$emit('update-category', this.selectedCategories);
+            this.$emit('update-filters', 'category', this.selectedCategories);
         },
         onBrandChange() {
-            this.$emit('update-brand', this.selectedBrands);
+            this.$emit('update-filters', 'brand', this.selectedBrands);
+        },
+        onPriceChange() {
+            this.$emit('update-filters-price', this.selectedMinPrice, this.selectedMaxPrice);
         },
     },
 };
 </script>
+
+
+
+
 

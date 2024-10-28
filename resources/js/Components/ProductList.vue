@@ -1,17 +1,17 @@
 <template>
-    <div>
+        <div class="flex w-[var(--xl, 1280px)] items-start gap-4">
         <product-filter
-            :categories="categories"
-            :brands="brands"
             @update-filters="updateFilterParams"
             @update-filters-price="updatePriceRange"
             multiple
         />
         
-        <div v-if="products.length">
+        <div class="w-full flex flex-wrap gap-2.5" v-if="products.length">
             <product-item v-for="product in products" :key="product.id" :product="product" />
         </div>
     </div>
+    
+    
 </template>
 
 <script>
@@ -27,18 +27,6 @@ export default {
     data() {
         return {
             products: [],
-            categories: [
-                'Laptops',
-                'Console',
-                'Desktop PC',
-                'Monitors',
-                'Phone',
-                'Tablets',
-            ],
-            brands: [
-                'Acer',
-                'Amazon',
-            ],
             selectedCategories: [],
             selectedBrands: [],
         };

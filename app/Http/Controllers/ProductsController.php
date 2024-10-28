@@ -35,5 +35,16 @@ class ProductsController extends Controller
 
         return response()->json($products);
     }
+
+    public function filters(): \Illuminate\Http\JsonResponse
+    {
+        $brands = Product::distinct()->pluck('brand');
+        $categories = Product::distinct()->pluck('category');
+
+        return response()->json([
+            'brands' => $brands,
+            'categories' => $categories,
+        ]);
+    }
 }
 

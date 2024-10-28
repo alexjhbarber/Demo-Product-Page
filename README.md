@@ -71,6 +71,10 @@ To setup the project, run the following commands in the terminal:
 
 ```composer install```
 ```npm install```
-```npm run dev```
 ```php artisan migrate```
 ```php artisan db:seed```
+
+
+To Run the project, run the following commands in 2 seperate terminals
+```npm run dev```
+```php artisan serve```
